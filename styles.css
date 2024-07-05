@@ -1,0 +1,119 @@
+:root {
+--color-Dark-cyan: hsl(158, 36%, 37%);
+--color-Cream: hsl(30, 38%, 92%);
+
+/* neutral */
+
+--color-Very-dark-blue: hsl(212, 21%, 14%);
+--color-Dark-grayish-blue: hsl(228, 12%, 48%);
+--color-White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-Cream);
+}
+
+.contenedor{
+    width: 600px;
+    margin: 175px auto;
+    display: flex;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.picture__contenedor {
+    width: 600px;
+}
+
+.bg__img {
+    width: 100%;
+    display: block;
+    border-top-left-radius: 10px;
+    filter: brightness(90%);
+}
+
+.main {
+    width: 100%;
+}
+
+.main__text {
+    padding: 30px 32px;
+}
+
+.text__span {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: .74rem;
+    color: var(--color-Dark-grayish-blue);
+}
+
+.text__title {
+    font-weight: bolder;
+    font-family: "Fraunces", serif;
+    line-height: 1;
+    margin: 20px 0 24px;
+    width: 90%;
+}
+
+.main__parrafo {
+    font-family: 'Montserrat';
+    font-size: .85rem;
+    font-weight: 600;
+    line-height: 1.7;
+    color: var(--color-Dark-grayish-blue);
+    margin-bottom: 25px;
+}
+
+.main__price {
+    font-family: 'Fraunces';
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-bottom: 26px;
+}
+
+.price__text {
+    font-size: 32px;
+    color: var(--color-Dark-cyan);
+}
+
+.price__text2 {
+    text-decoration: line-through;
+    font-family: 'Montserrat';
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--color-Dark-grayish-blue);
+}
+
+.main__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    background-color: var(--color-Dark-cyan);
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: .9rem;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 15px 0 15px 7px;
+}
+
+.icon__img {
+    margin-top: 4px;
+}
+
